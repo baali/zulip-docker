@@ -1,0 +1,2 @@
+This is mostly overdue and obsolete repo. Now Zulip itself supports
+Docker configs as part of their [[https://github.com/zulip/zulip][repo]].
