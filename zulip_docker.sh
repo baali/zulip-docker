@@ -1,7 +1,8 @@
 #!/bin/bash
 
 ulimit -n 1024
-chown -R rabbitmq:rabbitmq /home/baali/rabbitmq-docker/data
+mkdir -p ~/rabbitmq-docker/data
+chown -R rabbitmq:rabbitmq ~/rabbitmq-docker/data
 rabbitmq-server -detached
 
 service memcached start
